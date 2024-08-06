@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+header .navbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding-top: 15px;
+    position: fixed;
+    top: 0%;
+    position: relative;
+}
+
+header .navbar .nav-content img{
+    height: 40px;
+    width: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+header .navbar .nav-content h1{
+    display: inline;
+    margin-left: 2px;
+    cursor: pointer;
+    color: snow;
+    transition: 0.9s;
+    font-size: 200%;
+}
+
+header .navbar .nav-content h1:hover{
+    color: rgb(155, 122, 78);
+}
+
+header .navbar .nav-content a{
+    display: inline;
+    padding-left: 15px;
+    text-decoration: none;
+    color: snow;
+    transition: all 0.2s;
+    text-transform: uppercase;
+}
+
+header .navbar .nav-content a:hover{
+      color: rgb(155, 122, 78);
+}
+
+header .navbar .nav-content i{
+   margin-left: 39%;
+   color: snow;
+cursor: pointer;
+transition: 0.2s;
+}
+
+header .navbar .nav-content i:hover{
+    color: rgb(155, 122, 78);
+}
+
+header .navbar .nav-content .btn{
+    margin-left: 1%;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(155, 122, 78);
+    border: none;
+    color: snow;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+header .navbar .nav-content .btn:hover{
+    background-color:  snow;
+    color:  rgb(155, 122, 78);
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.background img{
+    width: 100%;
+}
+
+.background h1{
+    height: 600px;
+    width: 600px;
+    color: snow;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.background p{
+        height: 600px;
+        width: 600px;
+        color: snow;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 5%;
+        font-size: 100%;
+}
+
+.background .button{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color:  rgb(155, 122, 78);
+    border: none;
+    cursor: pointer;
+    color: snow;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-left: -95%;
+    margin-top: 450px;
+}
+
+.background .button:hover{
+ color:  rgb(155, 122, 78);
+ background-color: snow;
+ border: 3px solid rgb(155, 122, 78);
+}
+
+.background .button2{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color:  rgb(155, 122, 78);
+    border: none;
+    cursor: pointer;
+    color: snow;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-left: -85%;
+    margin-top: 450px;
+}
+
+.background .button2:hover{
+    color:  rgb(155, 122, 78);
+ background-color: snow;
+ border: 3px solid rgb(155, 122, 78);
+}
+
+.menu h1{
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 10px;
+     font-size: 300%;
+     color: rgb(155, 122, 78);
+} 
+
+.menu p{
+    text-align: center;
+}
+
+.menu .type1{
+    height: 55%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 7%;
+    display: inline-block;
+}
+
+.menu .type1 img{
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu .type1 h2{
+    text-align: center;
+    color: rgb(155, 122, 78);
+}
+
+.menu .type1 p{
+    text-align: justify;
+}
+
+.menu .type1 .type1-btn{
+    background-color: rgb(155, 122, 78);
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    margin-top: 5px;
+    align-items: center;
+height: 30px;
+margin-left: 120px;
+width: 80px;
+cursor: pointer;
+}
+
+.menu .type1 .type1-btn:hover{
+    background-color: snow;
+    color: rgb(155, 122, 78);
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.menu .type2{
+    display: inline-block;
+    height: 55%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.menu .type2 img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu .type2 h2{
+    text-align: center;
+    color: rgb(155, 122, 78);
+}
+
+.menu .type2 p{
+    text-align: justify;
+}
+
+.menu .type2 .type2-btn{
+    background-color: rgb(155, 122, 78);
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    margin-top: 5px;
+    align-items: center;
+height: 30px;
+margin-left: 120px;
+width: 80px;
+cursor: pointer;
+}
+
+.menu .type2 .type2-btn:hover{
+    background-color: snow;
+    color: rgb(155, 122, 78);
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.menu .type3{
+    display: inline-block;
+    height: 55%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.menu .type3 img{
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.menu .type3 h2{
+    text-align: center;
+    color: rgb(155, 122, 78);
+}
+
+.menu .type3 p{
+    text-align: justify;
+}
+
+.menu .type3 .type3-btn{
+    background-color: rgb(155, 122, 78);
+    border: none;
+    border-radius: 5px;
+    color: snow;
+    margin-top: 5px;
+height: 30px;
+margin-left: 120px;
+width: 80px;
+cursor: pointer;
+}
+
+.menu .type3 .type3-btn:hover{
+    background-color: snow;
+    color: rgb(155, 122, 78);
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.about img{
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.about .about-content{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    margin-top: -35%;
+    padding-left: 5%;
+    text-align: left;
+    color: snow;
+}
+
+.about .about-content h1{
+    font-size: 300%;
+    text-transform: uppercase;
+}
+
+.about .about-content p{
+    font-size: 100%;
+}
+
+.about .about-content .about-btn{
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(155, 122, 78);
+    color: snow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.about .about-content .about-btn:hover{
+    background-color: snow;
+    color: rgb(155, 122, 78);
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.testimonials h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(155, 122, 78);
+    font-size: 300%;
+}
+
+.testimonials p{
+    font-size: 100%;
+    text-align: center;
+}
+
+.testimonials .box1{
+    height: 40%;
+    width: 30%;
+    border: 4px solid rgb(155, 122, 78);
+    background-color: rgb(155, 122, 78);
+    color: snow;
+    margin-top: 2%;
+    margin-left: 15%;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials .box1:hover{
+    color: rgb(155, 122, 78);
+    background-color: snow;
+ 
+}
+
+.testimonials .box1 i{
+    font-size: 200%;
+    margin-left: 90%;
+}
+
+.testimonials .box1 img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.testimonials .box1 p{
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.testimonials .box2{
+    height: 40%;
+    width: 30%;
+    border: 4px solid rgb(155, 122, 78);
+    background-color: rgb(155, 122, 78);
+    color: snow;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testimonials .box2 i{
+    font-size: 200%;
+    margin-left: 90%;
+}
+
+.testimonials .box2 img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.testimonials .box2 p{
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.testimonials .box2:hover{
+    color: rgb(155, 122, 78);
+    background-color: snow;
+    
+}
+
+.testimonials .box3{
+    height: 40%;
+    width: 30%;
+    border: 4px solid rgb(155, 122, 78);
+    background-color: rgb(155, 122, 78);
+    color: snow;
+    margin-top: 2%;
+    margin-left: 32%;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testimonials .box3 img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.testimonials .box3 i{
+    font-size: 200%;
+    margin-left: 90%;
+}
+
+.testimonials .box3 p{
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.testimonials .box3:hover{
+    color: rgb(155, 122, 78);
+    background-color: snow;
+    
+}
+
+.ad img{
+    width: 100%;
+    margin-top: 3%;
+    position: relative;
+}
+
+.ad h1{
+    position: absolute;
+    font-size: 300%;
+    margin-top: -25%;
+    color: snow;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5%;
+    height: 60%;
+    width: 50%;
+    position: relative;
+}
+
+.ad i #play{
+    position: absolute;
+    font-size: 400%;
+    gap: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.ad i:hover{
+    color: rgb(155, 122, 78);
+}
+
+.contact img{
+    margin-top: 20%;
+}
+
+.contact h1{
+    font-size: 300%;
+    color: rgb(155, 122, 78);
+    margin-top: -55%;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.b1{
+    position: absolute;
+    height: 60%;
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.b1 h2{
+    color: rgb(155, 122, 78);
+    font-size: 200%;
+    text-transform: capitalize;
+}
+
+.b1 p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.b1 button.contact-us{
+    background-color: rgb(155, 122, 78);
+    color: snow;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5%;
+}
+
+.b1 button.contact-us:hover{
+    color: rgb(155, 122, 78);
+    background-color: snow;
+    border: 3px solid rgb(155, 122, 78);
+}
+
+.b2{
+    position: absolute;
+    height: 60%;
+    width: 20%;
+    margin-left: 75%;
+    margin-top: 3%;
+}
+
+.b2 h2{
+    color: rgb(155, 122, 78);
+    font-size: 200%;
+}
+
+.b2 p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.b2 i{
+    font-size: 150%;
+    padding-top: 10px;
+    cursor: pointer;
+    color: rgb(155, 122, 78);
+}
+
+.b2 i:hover{
+    font-size: 180%;
+}
+
+.main-menu{
+    position: absolute;
+    height: 60%;
+    width: 20%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+.main-menu h2{
+    color: rgb(155, 122, 78);
+    font-size: 200%;    
+}
+
+.main-menu p{
+    margin-top: 5px;
+    text-align: justify;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rated{
+    position: absolute;
+    height: 60%;
+    width: 20%;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.rated h2{
+    color: rgb(155, 122, 78);
+    font-size: 200%;  
+}
+
+.rated p{
+    margin-top: 5px;
+    text-align: justify;
+    text-decoration: underline;
+    cursor: pointer;
+}
